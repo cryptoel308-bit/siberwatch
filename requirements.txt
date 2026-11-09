@@ -1,0 +1,12 @@
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.24
+plotly>=5.15
+matplotlib>=3.6
+networkx>=3.0
+
+# Opsional — jalur klasifikasi model Hugging Face (IndoBERT).
+# TIDAK wajib: tanpa paket ini classifier memakai heuristik (default).
+# Aktifkan dengan environment variable SIBERWATCH_USE_HF=1.
+# transformers>=4.40
+# torch>=2.0
